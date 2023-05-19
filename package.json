@@ -7,6 +7,27 @@
   "dependencies": {
     "node-ses": "^3.0.3"
   },
-  "author": "shakir abdo",
+  "keywords": [
+    "email",
+    "strapi",
+    "amazon",
+    "ses"
+  ],
+  "homepage": "https://github.com/shakir-abdo/strapi-provider-aws-mailer",
+  "bugs": {
+    "url": "https://github.com/shakir-abdo/strapi-provider-aws-mailer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shakir-abdo/strapi-provider-aws-mailer.git"
+  },
+  "author": {
+    "name": "shakir abdo",
+    "email": "shicolare1@gmail.com"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
   "license": "ISC"
 }
