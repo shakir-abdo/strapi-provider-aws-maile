@@ -8,12 +8,13 @@ module.exports = {
         options.message = options.text;
 
             return await new Promise((resolve, reject) => {
-                let payload = Object.assign(settings,{
-                  from: settings.defaultFrom,
-                  replyTo: settings.defaultReplyTo,
-                });
+                let payload = Object.assign(settings,
+                  {
+                    from: settings.defaultFrom,
+                    replyTo: settings.defaultReplyTo,
+                  });
           client.sendEmail(
-            { ...options, ...payload },
+            { ...payload, ...options },
             function (err, data, res) {
               if (data) {
                 return resolve(data);
