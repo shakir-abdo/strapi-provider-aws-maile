@@ -1,0 +1,12 @@
+{
+  "name": "strapi-provider-aws-mailer",
+  "version": "1.0.0",
+  "description": "Strapi email provider plugin to send emails through Amazon SES Service",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "node-ses": "^3.0.3"
+  },
+  "author": "shakir abdo",
+  "license": "ISC"
+}
